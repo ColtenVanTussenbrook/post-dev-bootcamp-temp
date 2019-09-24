@@ -1,0 +1,70 @@
+body {
+    background-image: url('/images/temp-bg-mobile.jpg');
+    width: 70%;
+    margin: 0px auto;
+}
+
+@media screen and (min-width: 980px) { 
+    body {
+        background: #000030;
+    }
+ }
+
+h1, p, .form-text {
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) { 
+    .header {
+        margin: 15% 0;
+    }
+ }
+
+.header {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.email-form {
+    text-align: center;
+}
+
+.form-text {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.25em;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    background-color: #FF007F;
+    width: 380px;
+    height: 40px;
+    color: #fff;
+    font-size: 1.25em;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
